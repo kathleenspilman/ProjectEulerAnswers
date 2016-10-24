@@ -6,7 +6,9 @@ What is the smallest positive number that is evenly divisible by all of the numb
 */
 
 public class SmallestMultiple{
+	
 	public static void main(String args[]) {
+		
         boolean j = true;
         for (int num = 1; ; num++){
             for (int i = 1; i <= 20; i++){
@@ -22,5 +24,4 @@ public class SmallestMultiple{
         }
     }
 }
-// Answer = 23,279,250
  
