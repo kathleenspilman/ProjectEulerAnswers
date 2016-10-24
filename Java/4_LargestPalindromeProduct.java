@@ -10,15 +10,32 @@ Source and copyright at: https://projecteuler.net/problem=4
 
 */
 
-public class LargestPalindromProject{
+public class 4_LargestPalindromProject{
 
-  public static void main (String [] args){
+
+	public static void main (String [] args){
     
-    int temp = 0;
+		int temp;
     int answer = 0;
-    for (int i = 999; i > 0; i++){
-      for (int j = 999; j > 0 ; j++){
-        temp = j*i;
-        answer = 
-      }
+   	int temp2 = 0;
+   	int reverse;
+      	for (int i = 999 ; i > 99 ; i--){
+      		for (int j = 999 ; j > 99 ; j--){
+             	reverse = 0;
+          		answer = temp = j*i;
+          		while(temp != 0 ){
+           			reverse = reverse * 10;
+                reverse = reverse + (temp%10);
+          			temp = temp/10;
+          		}
+          		if( reverse == answer && answer >= temp2){
+                	temp2 = answer;
+                 	break;
+          		}
+           }  
+        }
+        System.out.println(temp2);
+    }
+}  
+        
     
