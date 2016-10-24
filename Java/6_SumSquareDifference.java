@@ -10,8 +10,10 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 */
 
-public class SumSquareDifference{
+public class 6_SumSquareDifference
+
 	public static void main(String args[]) {
+	
     		int a = 0;
     		int b = 0;
     		for (int i = 1; i <= 100; i++){
@@ -24,5 +26,3 @@ public class SumSquareDifference{
     		System.out.println(b-a);
 	}
 }
-
-// Answer: 25,164,150
