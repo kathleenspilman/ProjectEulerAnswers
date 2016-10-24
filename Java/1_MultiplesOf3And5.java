@@ -10,7 +10,7 @@ Source and copyright at: https://projecteuler.net/problem=1
 
 */
 
-public class MultiplesOf3And5{
+public class 1_MultiplesOf3And5{
 
     public static void main(String []args){
         int answer = 0;
