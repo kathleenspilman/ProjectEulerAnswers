@@ -1,4 +1,4 @@
-# ProjectEulerAnswers
+# ProjectEuler
 
 This project is a compliation of all of the code I utilized to find answers to problems posted in Project Euler. 
 
