@@ -9,8 +9,8 @@ public class SmallestMultiple{
 	public static void main(String args[]) {
         boolean j = true;
         for (int num = 1; ; num++){
-            for (int i = 1; i <=20; i++){
-                if ((num%i) != 0){
+            for (int i = 1; i <= 20; i++){
+                if (( num % i ) != 0){
                     j = false;
                 }
             }
