@@ -12,7 +12,7 @@ Source and copyright at: https://projecteuler.net/problem=3
 
 import java.lang.Math;
 
-public class LargestPrimeFactor{
+public class 3_LargestPrimeFactor{
 	
 	public static void main(String []args){
     		long number = 600851475143L;
