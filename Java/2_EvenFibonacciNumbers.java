@@ -12,7 +12,7 @@ Source and copyright at: https://projecteuler.net/problem=2
 
 */
 
-public class EvenFibonacciNumbers{
+public class 2_EvenFibonacciNumbers{
 
     public static void main(String[ ] args){
  
